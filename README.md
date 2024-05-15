@@ -33,17 +33,17 @@ Command to run for the installation of all these dependencies
 
 \\\\SECOND cmd's for terminal
 
-npm install @mui/material
+            npm install @mui/material
 
-npm install @mui/icons-material
+            npm install @mui/icons-material
 
-npm install react-router-dom
+            npm install react-router-dom
 
-npm install react-spinners
+            npm install react-spinners
 
-           OR
+OR
 
-npm i @mui/material @mui/icons-material react-router-dom react-spinners
+            npm i @mui/material @mui/icons-material react-router-dom react-spinners
 
 (AFTER RUNNING THIS CMD IN YOUR TERMINAL YOU ARE GOOD)
 
