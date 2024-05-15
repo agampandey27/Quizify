@@ -10,11 +10,11 @@ commands :-
 
 \\\\FIRST cmd's for terminal
 
-git clone https://github.com/agampandey27/Quizify
+            git clone https://github.com/agampandey27/Quizify
 
-cd .\Quizify\
+            cd .\Quizify\
 
-npm install
+            npm install
 
 \\\
 
