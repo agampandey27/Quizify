@@ -49,7 +49,9 @@ OR
 
 \\\\\ Final cmd
 
-RUN A COMMAND ----- npm run dev
+RUN A COMMAND ----- 
+    
+            npm run dev
 
 \\\\
 
