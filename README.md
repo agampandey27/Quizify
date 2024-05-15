@@ -1,8 +1,40 @@
-# React + Vite
+QUIZIFY -  'https://quizify-mu.vercel.app/'
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:-
+This project is a frontend application built using React.js + vite. It utilizes various dependencies for managing state, styling, routing, and asynchronous data fetching. this is a quiz/test website made using only frontend but highly customizable (you can create you server side and database to make it more versetile)
 
-Currently, two official plugins are available:
+How To Run Locally :-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-As there no specific .gitignore components so you can easily clone the repo by
+commands :-
+
+git clone https://github.com/agampandey27/Quizify
+cd .\Quizify\
+npm install
+
+(RUN THE ABOVE THREE COMMANDS IN YOU newly created folder's terminal to clone this project)
+
+After this you need to install some dependencies 
+
+Dependencies:
+   >@mui/material
+   >@mui/icons-material
+   >react-router-dom
+   >react-spinners
+
+Command to run for the installation of all these dependencies 
+
+npm install @mui/material
+npm install @mui/icons-material
+npm install react-router-dom
+npm install react-spinners
+
+           OR
+
+npm i @mui/material @mui/icons-material react-router-dom react-spinners
+
+(AFTER RUNNING THIS CMD IN YOUR TERMINAL YOU ARE GOOD)
+
+RUN A COMMAND ----- npm run dev 
+
+in your terminal and you are good to use your site locally
