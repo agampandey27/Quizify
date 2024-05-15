@@ -11,7 +11,9 @@ commands :-
 \\\\FIRST cmd's for terminal
 
 git clone https://github.com/agampandey27/Quizify
+
 cd .\Quizify\
+
 npm install
 
 \\\
@@ -31,8 +33,11 @@ Command to run for the installation of all these dependencies
 \\\\SECOND cmd's for terminal
 
 npm install @mui/material
+
 npm install @mui/icons-material
+
 npm install react-router-dom
+
 npm install react-spinners
 
            OR
