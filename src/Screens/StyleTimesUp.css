@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Kode+Mono:wght@400..700&family=Lobster&display=swap');
+
+.TimesUpContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+  }
+  
+  .TimesUpMessage {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .TimesUpButton {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #36D7B7; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .TimesUpButton:hover {
+    background-color: #1d9b82; /* Darker Green */
+  }

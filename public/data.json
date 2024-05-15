@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Trainer Marking Language",
+        "Hyper Text Marketing Language",
+        "Hyper Text Markup Language",
+        "Hyper Text Markup Leveler"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Which HTML element is used to define the title of a document?",
+      "options": ["<head>", "<title>", "<header>", "<top>"],
+      "answer": "<title>"
+    },
+    {
+      "question": "What is the purpose of the <body> tag in HTML?",
+      "options": [
+        "It defines the document's head section.",
+        "It contains all the content such as text, images, and links.",
+        "It is used to define the main content of an HTML document.",
+        "It specifies the body of the email content in HTML."
+      ],
+      "answer": "It contains all the content such as text, images, and links."
+    },
+    {
+      "question": "What does CSS stand for?",
+      "options": [
+        "Colorful Style Sheets",
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Creative Style Sheets"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "question": "Which HTML attribute is used to define inline styles?",
+      "options": ["styles", "style", "class", "font-style"],
+      "answer": "style"
+    },
+    {
+      "question": "How do you insert a comment in a CSS file?",
+      "options": [
+        "// this is a comment //",
+        "/* this is a comment */",
+        "-- this is a comment --",
+        "<!-- this is a comment -->"
+      ],
+      "answer": "/* this is a comment */"
+    },
+    {
+      "question": "Which syntax is correct to output 'Hello World' in an alert box?",
+      "options": [
+        "alertBox('Hello World');",
+        "msg('Hello World');",
+        "alert('Hello World');",
+        "msgBox('Hello World');"
+      ],
+      "answer": "alert('Hello World');"
+    },
+    {
+      "question": "How do you call a function named 'myFunction'?",
+      "options": [
+        "call function myFunction()",
+        "call myFunction()",
+        "myFunction()",
+        "execute myFunction()"
+      ],
+      "answer": "myFunction()"
+    },
+    {
+      "question": "How to write an IF statement in JavaScript?",
+      "options": ["if i = 5 then", "if (i == 5)", "if i == 5", "if i = 5"],
+      "answer": "if (i == 5)"
+    },
+    {
+      "question": "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+      "options": [
+        "if (i <> 5)",
+        "if i =! 5 then",
+        "if (i != 5)",
+        "if i not = 5"
+      ],
+      "answer": "if (i != 5)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Kode+Mono:wght@400..700&family=Lobster&display=swap');
+
+.container{
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
+}
+ 
+.heading{
+    font-size: 6vh;
+}
+
+.count{
+    font-size: 3vh;
+}

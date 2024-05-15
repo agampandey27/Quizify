@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .main-content{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .welcome-container {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+  }
+  
+  .welcome-container.hidden {
+    opacity: 0;
+  }
+  
+  .welcome-text {
+    font-family: "Jersey 25 Charted", sans-serif;
+  font-weight: 400;
+  font-size: 8vh;
+  font-style: normal;
+    color: #36D7B7; 
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Kode+Mono:wght@400..700&family=Lobster&display=swap');
+
+.result-container {
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.result-content {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.result-heading {
+    color: #212121;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.result-text {
+    font-weight: bold;
+    font-size: 3vh;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    padding: 10px;
+}
+
+.buttons > * {
+    margin-right: 10px;
+}
+
+.buttons > :first-child {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .result-container {
+        font-size: 6vw;
+    }
+  
+    .result-content {
+        padding: 16px;
+        max-width: 300px;
+    }
+  
+    .result-heading {
+        font-size: 2.5vh;
+        margin-bottom: 12px;
+    }
+  
+    .result-text {
+        font-size: 2.5vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .result-container {
+        font-size: 8vw;
+    }
+  
+    .result-content {
+        padding: 12px;
+        max-width: 250px;
+    }
+  
+    .result-heading {
+        font-size: 2vh;
+        margin-bottom: 8px;
+    }
+  
+    .result-text {
+        font-size: 2vh;
+    }
+}

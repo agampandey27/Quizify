@@ -1,0 +1,36 @@
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    width: 79vw;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.StartButton {
+    position: absolute;
+    bottom: 1vmax;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 90vw;
+    }
+    
+    .StartButton {
+        bottom: 2vmax;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        height: 80vh;
+    }
+    
+    .StartButton {
+        bottom: 3vmax;
+    }
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Kode+Mono:wght@400..700&family=Lobster&display=swap');
+
+.question-container {
+    max-width: 800px;
+    margin: auto;
+    font-family: "Kode Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vh;
+  }
+
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .edit-button{
+    background-color: #4e84c6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 4px;
+  }
+
+  .edit-button:hover{
+    background-color: #007bff;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+
+  h2{
+    color: #36D7B7;
+  }
+  
+  .question-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 2vh;
+  }
+  
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .options-list li {
+    margin-bottom: 5px;
+  }
+  
+  .options-list li::before {
+    content: "•";
+    margin-right: 5px;
+    color: #007bff;
+  }
