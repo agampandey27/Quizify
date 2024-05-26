@@ -16,7 +16,7 @@ function AddQuestion() {
 
   const handleAddQuestion = async () => {
     if (!question.trim() || !answer.trim() || options.some(option => !option.trim())) {
-      setMessage('Please provide both question and answer along with options.');
+      setMessage(`Sorry for the inconvenience but you can't modify data.json file`);
       return;
     }
 
